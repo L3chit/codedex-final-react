@@ -1,0 +1,115 @@
+/* General Styles */
+html {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  color: black;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 .625rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+  max-width: 25rem;
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: .625rem;
+}
+
+form input {
+  width: 50%;
+  padding: .625rem;
+  margin: .3125rem;
+  border-radius: .3125rem;
+  -webkit-border-radius: .3125rem;
+  -moz-border-radius: .3125rem;
+  -ms-border-radius: .3125rem;
+  -o-border-radius: .3125rem;
+}
+
+form button {
+  color: black;
+  padding: .625rem .9375rem;
+  border-radius: .3125rem;
+  cursor: pointer;
+  -webkit-border-radius: .3125rem;
+  -moz-border-radius: .3125rem;
+  -ms-border-radius: .3125rem;
+  -o-border-radius: .3125rem;
+}
+
+/* Question Styles */
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 1.875rem;
+}
+
+p {
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  color: black;
+  padding: 1.25rem;
+  margin: .625rem;
+  border-radius: .3125rem;
+  cursor: pointer;
+  -webkit-border-radius: .3125rem;
+  -moz-border-radius: .3125rem;
+  -ms-border-radius: .3125rem;
+  -o-border-radius: .3125rem;
+}
+
+button:hover {
+  background-color: #c4c4c4;
+}
+
+.artwork {
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.artwork img {
+  max-width: 18.75rem;
+  border-radius: 0.625rem;
+  -webkit-border-radius: 0.625rem;
+  -moz-border-radius: 0.625rem;
+  -ms-border-radius: 0.625rem;
+  -o-border-radius: 0.625rem;
+}
+
+.artwork p {
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+}
+
+div{
+  text-align: center;
+  margin: auto;
+}
